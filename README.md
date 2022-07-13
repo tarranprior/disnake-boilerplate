@@ -19,7 +19,7 @@ Slash commands can take some time to register on guilds (usually an hour or two.
    ```python
 @commands.slash_command(
     name="command",
-    description="Command description",
+    description="description",
     guild_ids=[GUILD_ID1, GUILD_ID2] # The ID(s) of the guild(s) you wish to test.
 )
    ```
@@ -32,7 +32,7 @@ Alternatively, you can define the `guild_id` globally in `main.py`.
    ```
 
 ## Configuration
-1. Update the values in `SAMPLE.env` and rename to `.env`.
+1. Update the values in `.env.EXAMPLE` and rename to `.env`.
 
    ```s
    DISCORD_TOKEN = YOUR_BOT_TOKEN
