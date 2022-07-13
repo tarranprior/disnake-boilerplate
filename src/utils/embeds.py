@@ -1,6 +1,7 @@
 import disnake
 from disnake.ui import Button, Select, View
 
+
 class EmbedFactory:
     def __init__(
             self,
@@ -8,7 +9,7 @@ class EmbedFactory:
             description: str = None,
             author: str = None,
             author_url: str = None,
-            colour: disnake.Colour = 0xB4E3F9,
+            colour: disnake.Colour = disnake.Colour.og_blurple(),
             infobox: dict = None,
             options: list = None,
             thumbnail_url: str = None,
