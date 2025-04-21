@@ -1,2 +1,4 @@
+#! /usr/bin/env python3
+
 from .embeds import *
-from .general import *
+from .helpers import *
